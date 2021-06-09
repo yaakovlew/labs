@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/andre/CLionProjects/lab1/actionvector.h
+stdio.h
+-
+string.h
+-
+
+C:/Users/andre/CLionProjects/lab1/main.c
+stdio.h
+-
+stdlib.h
+-
+actionvector.h
+C:/Users/andre/CLionProjects/lab1/actionvector.h
+menu.h
+C:/Users/andre/CLionProjects/lab1/menu.h
+tests.h
+C:/Users/andre/CLionProjects/lab1/tests.h
+
+C:/Users/andre/CLionProjects/lab1/menu.h
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+actionvector.h
+C:/Users/andre/CLionProjects/lab1/actionvector.h
+
+C:/Users/andre/CLionProjects/lab1/tests.h
+actionvector.h
+C:/Users/andre/CLionProjects/lab1/actionvector.h
+assert.h
+-
+
